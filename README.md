@@ -16,3 +16,5 @@ Personal expenses management web client application that allows users to track h
 - clear 2017-04-25 — removes all expenses for specified date
 - total PLN — calculate the total amount of money spent
 
+4- The application has been tested in Chrome, Opera and Mozilla browsers
+

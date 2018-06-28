@@ -4,8 +4,12 @@ input {
 	border:2px solid rgba(255,255,255,.5);
 	width: 400px;			
 }
+
 input:focus {
 	outline-color: rgb(255,255,255);
+}
+input[type="button"]{
+	width: 40px;
 }
 div{
 	font-family: monospace; 
