@@ -1,0 +1,26 @@
+input {
+	font-family: monospace; 
+	border: none;
+	border:2px solid rgba(255,255,255,.5);
+	width: 400px;			
+}
+input:focus {
+	outline-color: rgb(255,255,255);
+}
+div{
+	font-family: monospace; 
+	width: 420px;
+	margin: 0 auto;
+	font-size: 17px;
+	font-weight: bold;
+}	
+.myInput{
+	text-align: center; 
+	padding-top: 50px
+}
+.myInput span{
+	color: blue; 
+	font-family: monospace; 
+	font-weight: 900; 
+	font-size: 17px
+}

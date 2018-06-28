@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Spending</title>
+	<link rel="stylesheet" href="style.css">	
+</head>
+<body>
+<p class="myInput">
+	 <span>> </span>
+	 <input id="myInput" type="text" size="40" autofocus="" value="">
+</p>
+<div id="printText">
+	<h1 style="font-size: 20px;">Application overview<h1>
+	<p style="font-size: 15px;">Personal expenses management web client application
+	 that allows users to track how much money have they spent.</p>
+	<h2 style="font-size: 17px;">List of supported commands:</h2>
+	<ul style="font-size: 13px; font-weight: normal;">
+		<li><b>add 2017-04-25 12 USD Jogurt</b> — adds expense entry to the list
+		of user expenses. Expenses for various dates could be added in
+		any order. Command accepts following parameters:
+		<br><b>2017-04-25</b> — is the date when expense occurred
+		<br><b>12</b> — is an amount of money spent
+		<br><b>USD</b> — the currency in which expense occurred
+		<br><b>Jogurt</b> — is the name of product purchased</li>
+		<li><b>list</b> — shows the list of all expenses sorted by date</li>
+		<li><b>clear 2017-04-25</b> — removes all expenses for specified date</li>
+		<li><b>total PLN</b> — calculate the total amount of money spent</li>
+	</ul>
+	<h2 style="font-size: 17px;">You can enter the command above after 
+	<b style="color: blue; font-weight: 900; font-size: 17px">">"</b></h2>
+</div> 
+<script src="script.js"></script>
+</body>
+
+</html>
