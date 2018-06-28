@@ -1,7 +1,7 @@
 # Personal expenses management application
 Personal expenses management web client application that allows users to track how much money have they spent.
 ## How To Use
-1- Download application [GitHub Pages](https://pages.github.com/).
+1- Download application [GitHub Pages](https://github.com/zinkoviktor/ExpensesManagement/archive/master.zip).
 <br />
 2- Unzip files, and open **index.html** on your browser
 <br />
